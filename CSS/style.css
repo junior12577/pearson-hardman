@@ -62,13 +62,25 @@ img{
 }
 .banner{
     margin-left: 2rem;
-    margin-top: 20rem;
+    margin-top: 2rem;
     font-size: 25px;
 }
+
+.squere{
+    display: block;
+    width:150px;
+    height: 150px;
+    background-color: #d92123;
+}
 #servico{
+    justify-content: center;
+    align-items: center;
     display: flex;
+    width: 1005px;
+    height: 150px;
 }
 #servico1{
+    
     padding: 50px;
     background-color: #191919;
 }
