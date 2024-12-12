@@ -61,16 +61,41 @@ img{
     padding: 1rem;
 }
 .banner{
-    margin-left: 2rem;
-    margin-top: 2rem;
-    font-size: 25px;
+    max-width: 45%;
+    opacity: 1;
+    padding: 4rem;
+    position: absolute;
 }
 
+.banner2{
+    max-width: 50%;
+    opacity: 0;
+    padding: 4rem;
+    position: absolute;
+}
+
+.banner h2{
+    font-size: 4rem;
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.banner p{
+    font-size: 1.5rem;
+
+    
+}
 .square{
     display: block;
     width:150px;
     height: 150px;
     background-color: #d92123;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+    z-index: 1;
 }
 #servico{
     
@@ -93,4 +118,23 @@ img{
 }
 #servico2{
     width: 50px;
+}
+
+.dot{
+
+    width: 30px;
+    height: 30px;
+    background-color: var(--main-color);
+}
+.dots{
+    left: 2rem;
+    bottom: 8rem;
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
+    position: absolute;
+}
+
+.dot.active{
+    background-color: var(--secondary-color);
 }
